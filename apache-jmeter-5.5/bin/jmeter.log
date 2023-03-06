@@ -1,0 +1,44 @@
+2023-03-06 23:48:25,364 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-03-06 23:48:25,400 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-03-06 23:48:25,400 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: Version 5.5
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: java.version=11.0.16
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: os.name=Windows 10
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: os.arch=amd64
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: os.version=10.0
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: java.awt.headless=null
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-03-06 23:48:25,407 INFO o.a.j.JMeter: Available Processors =12
+2023-03-06 23:48:25,415 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-03-06 23:48:25,416 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-03-06 23:48:25,416 INFO o.a.j.JMeter: JMeterHome=C:\Users\Admin\Downloads\jmeter\apache-jmeter-5.5\apache-jmeter-5.5
+2023-03-06 23:48:25,416 INFO o.a.j.JMeter: user.dir  =C:\Users\Admin\Downloads\jmeter\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-03-06 23:48:25,416 INFO o.a.j.JMeter: PWD       =C:\Users\Admin\Downloads\jmeter\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-03-06 23:48:41,007 INFO o.a.j.JMeter: IP: 192.168.253.1 Name: DESKTOP-PD47J2F FullName: DESKTOP-PD47J2F
+2023-03-06 23:48:41,041 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-03-06 23:48:41,295 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-03-06 23:49:07,174 INFO o.a.j.s.FileServer: Default base='C:\Users\Admin\Downloads\jmeter\apache-jmeter-5.5\apache-jmeter-5.5\bin'
+2023-03-06 23:49:07,177 INFO o.a.j.g.a.Load: Loading file: C:\Users\Admin\Downloads\jmeter\cvg-web-apis-jmeter\cvg-web-apis-jmeter\AWCP004\AWCP004.jmx
+2023-03-06 23:49:07,177 INFO o.a.j.s.FileServer: Set new base='C:\Users\Admin\Downloads\jmeter\cvg-web-apis-jmeter\cvg-web-apis-jmeter\AWCP004'
+2023-03-06 23:49:07,373 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-03-06 23:49:07,386 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-03-06 23:49:07,388 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-03-06 23:49:07,389 INFO o.a.j.s.SaveService: Loading file: C:\Users\Admin\Downloads\jmeter\cvg-web-apis-jmeter\cvg-web-apis-jmeter\AWCP004\AWCP004.jmx
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-03-06 23:49:07,420 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-03-06 23:49:07,876 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-03-06 23:49:07,876 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-03-06 23:49:07,876 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-03-06 23:49:07,876 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-03-06 23:49:07,998 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-06 23:49:08,167 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-06 23:49:08,229 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-06 23:49:08,272 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-06 23:49:08,312 INFO o.a.j.s.FileServer: Set new base='C:\Users\Admin\Downloads\jmeter\cvg-web-apis-jmeter\cvg-web-apis-jmeter\AWCP004'

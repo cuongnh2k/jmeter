@@ -1,0 +1,55 @@
+ID,NAME,TYPE,REGION_CODE,REGION_PREFIX,DISTRICT_CODE,DISTRICT_PREFIX,ADDRESS,REPRESENTATIVE_CID,REPRESENTATIVE_NAME,PHONE_NUMBER,BUSINESS_CODE,IS_ACTIVE,IS_DELETED,CREATED_AT,UPDATED_AT
+1,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+10,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+13,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+14,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+15,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+16,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Cau Giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+17,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Cau Giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+18,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,Thành phố,1,Quận,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+2,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+20,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+21,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+22,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+23,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+24,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+25,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+26,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+27,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+3,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+358f55be-2787-4b4a-94fd-f9b3571f1605,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+4,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+458f55be-2787-4b4a-94fd-f9b3571f1606,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+5,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+6,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+7,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+8,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+9,Công Ty Cổ Phần Tập Đoàn CVG Building,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+958f55be-2787-4b4a-94fd-f9b3571f1604,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+30,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+31,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+32,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+33,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+34,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+35,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Cau Giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+36,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Cau Giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+37,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,Thành phố,1,Quận,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+38,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+39,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+40,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+41,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+42,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+43,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+44,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+45,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+46,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+47,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+48,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,cau giay,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+49,Công ty cổ phần tập đoàn CEO Global Building Store,LOCAL,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+50,Công ty cổ phần tập đoàn CEO Global Building Store,STORE,1,HN,1,HN,Nam Tu Liem,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+51,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+52,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+53,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+54,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+55,Công Ty Cổ Phần Tập Đoàn CVG Building,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000
+56,Công ty cổ phần tập đoàn CEO Global Building Store,GROUP,1,HN,1,HN,Hoang Mai,1,Hoang Ngoc Dung,123456789,9,YES,NO,2022-08-24 15:12:33.000,2022-08-24 15:12:33.000

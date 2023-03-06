@@ -1,0 +1,28 @@
+ID,NAME,SHORT_NAME,TYPE,REGION_CODE,REGION_NAME,REGION_PREFIX,DISTRICT_CODE,DISTRICT_NAME,DISTRICT_PREFIX,ADDRESS,PHONE_NUMBER,EMAIL,WEBSITE,BUSINESS_CODE,IS_ACTIVE,CDN_OWNER_ID,IS_DELETED
+1,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+10,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+13,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,,HN,cau giay,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+14,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Cau Giay,HN,cau giay,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+15,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+16,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,cau giay,HN,Cau Giay,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+17,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,cau giay,HN,Cau Giay,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+18,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,Hà Nội,Thành phố,1,Ba Đình,Quận,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+2,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+20,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+21,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+22,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+23,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+24,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+25,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+26,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+27,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+3,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+358f55be-2787-4b4a-94fd-f9b3571f1605,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,Cau Giay,HN,cau giay,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+4,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,LOCAL,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+458f55be-2787-4b4a-94fd-f9b3571f1606,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,STORE,1,HA NOI,HN,1,Nam Tu Liem,HN,Nam Tu Liem,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+5,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+6,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+7,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+8,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+9,Công Ty Cổ Phần Tập Đoàn CVG Building,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
+958f55be-2787-4b4a-94fd-f9b3571f1604,Công ty cổ phần tập đoàn CEO Global Building Store,CVG Building,GROUP,1,HA NOI,HN,1,,HN,Hoang Mai,123456789,user@email.com,cvgbuilding.com,9,YES,,NO
