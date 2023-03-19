@@ -1,0 +1,463 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1679236597605,172,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,172,0,83
+1679236597778,2305,Setup - Check Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2305,0,2226
+1679236600091,71,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,70,0,0
+1679236600162,76,Setup - Check Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,76,0,0
+1679236600239,1126,Setup - Insert Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,30,0,1,1,null,0,0,0
+1679236601365,770,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,30,0,1,1,null,0,0,0
+1679236602135,1964,Setup - Insert Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,299,0,1,1,null,0,0,0
+1679236604176,424,AWCP009 - 200 - Check defalut,200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,316,1,1,http://13.229.198.3/jobs,424,0,92
+1679236605516,143,AWCP009 - 200 - Check regionCode,200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,291,1,1,http://13.229.198.3/jobs?regionCode=01,143,0,0
+1679236606447,127,AWCP009 - 200 - Check jobTypeId,200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,289,1,1,http://13.229.198.3/jobs?jobTypeId=1,127,0,0
+1679236607379,151,AWCP009 - 200 - Check pageNo,200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,286,1,1,http://13.229.198.3/jobs?pageNo=1,151,0,0
+1679236608454,247,AWCP009 - 200 - Check pageSize,200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,289,1,1,http://13.229.198.3/jobs?pageSize=10,247,0,0
+1679236609642,111,"AWCP009 - 200 - Check regionCode, jobTypeId",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,303,1,1,http://13.229.198.3/jobs?regionCode=01&jobTypeId=1,111,0,0
+1679236610634,1096,"AWCP009 - 200 - Check regionCode, pageNo",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"The operation lasted too long: It took 1,096 milliseconds, but should not have lasted longer than 600 milliseconds.",3819,300,1,1,http://13.229.198.3/jobs?regionCode=01&pageNo=1,1096,0,0
+1679236612465,255,"AWCP009 - 200 - Check regionCode, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,303,1,1,http://13.229.198.3/jobs?regionCode=01&pageSize=10,249,0,0
+1679236613466,349,"AWCP009 - 200 - Check jobTypeId, pageNo",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,298,1,1,http://13.229.198.3/jobs?jobTypeId=1&pageNo=1,349,0,0
+1679236614806,666,"AWCP009 - 200 - Check jobTypeId, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"The operation lasted too long: It took 666 milliseconds, but should not have lasted longer than 600 milliseconds.",3819,301,1,1,http://13.229.198.3/jobs?jobTypeId=1&pageSize=10,665,0,0
+1679236616183,135,"AWCP009 - 200 - Check pageNo, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,298,1,1,http://13.229.198.3/jobs?pageNo=1&pageSize=10,135,0,0
+1679236617090,111,"AWCP009 - 200 - Check regionCode, jobTypeId, pageNo",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,312,1,1,http://13.229.198.3/jobs?regionCode=01&jobTypeId=1&pageNo=1,111,0,0
+1679236618003,131,"AWCP009 - 200 - Check regionCode, jobTypeId, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,315,1,1,http://13.229.198.3/jobs?regionCode=01&jobTypeId=1&pageSize=10,131,0,0
+1679236619125,170,"AWCP009 - 200 - Check jobTypeId, pageNo, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,310,1,1,http://13.229.198.3/jobs?pageNo=1&jobTypeId=1&pageSize=10,170,0,0
+1679236620134,214,"AWCP009 - 200 - Check regionCode, pageNo, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,312,1,1,http://13.229.198.3/jobs?regionCode=01&pageNo=1&pageSize=10,214,0,0
+1679236621202,104,"AWCP009 - 200 - Check regionCode, jobTypeId, pageNo, pageSize",200,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,false,"java.lang.AssertionError: list[id=1].publishedAt
+Expected: 2022-11-21T04:44:03+0700
+     got: 2022-11-21T11:44:03+0700
+ ; list[id=2].publishedAt
+Expected: 2022-11-21T06:37:09+0700
+     got: 2022-11-21T13:37:09+0700
+ ; list[id=3].publishedAt
+Expected: 2022-11-21T07:22:45+0700
+     got: 2022-11-21T14:22:45+0700
+ ; list[id=4].publishedAt
+Expected: 2022-11-21T07:27:55+0700
+     got: 2022-11-21T14:27:55+0700
+ ; list[id=5].publishedAt
+Expected: 2022-11-21T07:28:14+0700
+     got: 2022-11-21T14:28:14+0700
+ ; list[id=6].publishedAt
+Expected: 2022-11-21T07:28:48+0700
+     got: 2022-11-21T14:28:48+0700
+ ; list[id=7].publishedAt
+Expected: 2022-11-21T07:29:29+0700
+     got: 2022-11-21T14:29:29+0700
+ ; list[id=8].publishedAt
+Expected: 2022-11-21T07:30:53+0700
+     got: 2022-11-21T14:30:53+0700
+ ; list[id=9].publishedAt
+Expected: 2022-11-21T07:31:44+0700
+     got: 2022-11-21T14:31:44+0700
+ ; list[id=10].publishedAt
+Expected: 2022-11-21T07:32:21+0700
+     got: 2022-11-21T14:32:21+0700
+",3819,324,1,1,http://13.229.198.3/jobs?regionCode=01&pageNo=1&pageSize=10&jobTypeId=1,104,0,0
+1679236622143,97,AWCP009 - 400 - Check Valid - pageNo format integer,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,363,371,1,1,http://13.229.198.3/jobs?pageNo=1212e12eu1d192d,96,0,0
+1679236622240,149,AWCP009 - 400 - Check Valid - pageNo min 1,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,357,357,1,1,http://13.229.198.3/jobs?pageNo=0,148,0,68
+1679236622389,175,"AWCP009 - 400 - Check Valid - pageNo max 2,147,483,647",400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,363,366,1,1,http://13.229.198.3/jobs?pageNo=2147483648,174,0,83
+1679236622565,160,AWCP009 - 400 - Check Valid - pageSize format integer,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,365,372,1,1,http://13.229.198.3/jobs?pageSize=-9211d1kd12d21,160,0,78
+1679236622726,173,AWCP009 - 400 - Check Valid - pageSize min 1,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,359,359,1,1,http://13.229.198.3/jobs?pageSize=0,173,0,56
+1679236622898,161,AWCP009 - 400 - Check Valid - pageSize max 500,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,365,368,1,1,http://13.229.198.3/jobs?pageSize=2147483648,161,0,73
+1679236623059,161,AWCP009 - 400 - Check Valid - jobTypeId format long,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,366,368,1,1,http://13.229.198.3/jobs?jobTypeId=d923fc23f,161,0,75
+1679236623221,136,AWCP009 - 400 - Check Valid - jobTypeId min 0,400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,360,361,1,1,http://13.229.198.3/jobs?jobTypeId=-1,136,0,63
+1679236623358,158,"AWCP009 - 400 - Check Valid - jobTypeId max 9,223,372,036,854,775,807",400,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,366,378,1,1,http://13.229.198.3/jobs?jobTypeId=9223372036854775808,156,0,74
+1679236623517,148,AWCP009 - 401 - Check Headers - sso-api-key empty,401,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,357,182,1,1,http://13.229.198.3/jobs,148,0,67
+1679236623666,87,AWCP009 - 401 - Check Headers - sso-api-key incorrect,401,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,359,277,1,1,http://13.229.198.3/jobs,87,0,0
+1679236623754,103,AWCP009 - 401 - Check  Headers - org-id empty,401,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,352,231,1,1,http://13.229.198.3/jobs,103,0,0
+1679236623857,86,AWCP009 - 401 - Check Headers - sso-client empty,401,,/jobs?regionCode=&jobTypeId=&pageSize=&pageNo= 1-1,text,true,,356,260,1,1,http://13.229.198.3/jobs,86,0,0
+1679236623946,74,TearDown - Delete Table  WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,74,0,0
+1679236624021,68,TearDown - Delete Table  WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,68,0,0
+1679236624089,74,TearDown - Delete Table  ORG_INFO,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,74,0,0
+1679236624163,65,TearDown - Check Table - WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,64,0,0
+1679236624228,64,TearDown - Check Table - WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,64,0,0
+1679236624293,69,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,69,0,0
