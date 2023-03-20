@@ -16,12 +16,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="HOST" elementType="Argument">
             <stringProp name="Argument.name">HOST</stringProp>
-            <stringProp name="Argument.value">localhost</stringProp>
+            <stringProp name="Argument.value">13.229.198.3</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
             <stringProp name="Argument.name">PORT</stringProp>
-            <stringProp name="Argument.value">8087</stringProp>
+            <stringProp name="Argument.value">80</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -31,22 +31,22 @@
           </elementProp>
           <elementProp name="DB_URL" elementType="Argument">
             <stringProp name="Argument.name">DB_URL</stringProp>
-            <stringProp name="Argument.value">jdbc:mysql://172.20.20.47:7306/wcp_jmeter_cuong?allowPublicKeyRetrieval=true&amp;useSSL=false</stringProp>
+            <stringProp name="Argument.value">jdbc:mysql://13.229.198.3:3306/wcp_jmeter_cuong</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DB_USERNAME" elementType="Argument">
             <stringProp name="Argument.name">DB_USERNAME</stringProp>
-            <stringProp name="Argument.value">root</stringProp>
+            <stringProp name="Argument.value">cuong</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DB_PASSWORD" elementType="Argument">
             <stringProp name="Argument.name">DB_PASSWORD</stringProp>
-            <stringProp name="Argument.value">Rikkei@123</stringProp>
+            <stringProp name="Argument.value">231020</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="WORK_DIRECTORY_PATH" elementType="Argument">
             <stringProp name="Argument.name">WORK_DIRECTORY_PATH</stringProp>
-            <stringProp name="Argument.value">C:\Users\CuongNH3\Desktop\cvg-web-apis-jmeter\AWCP009</stringProp>
+            <stringProp name="Argument.value">C:\Users\Admin\Desktop\jmeter\apis-jmeter\AWCP009</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="SSO_API_KEY" elementType="Argument">
@@ -168,7 +168,7 @@
         <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
         <stringProp name="initQuery"></stringProp>
         <boolProp name="keepAlive">true</boolProp>
-        <stringProp name="password">Rikkei@123</stringProp>
+        <stringProp name="password">231020</stringProp>
         <stringProp name="poolMax">3</stringProp>
         <boolProp name="preinit">false</boolProp>
         <stringProp name="timeout">10000</stringProp>
@@ -5101,7 +5101,7 @@ if (expect == actual) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Admin\Desktop\jmeter\report\AWCP009.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

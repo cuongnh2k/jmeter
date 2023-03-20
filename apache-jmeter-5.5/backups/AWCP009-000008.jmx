@@ -5101,7 +5101,7 @@ if (expect == actual) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Admin\Desktop\jmeter\report\AWCP009.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

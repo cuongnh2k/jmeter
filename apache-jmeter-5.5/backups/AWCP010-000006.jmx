@@ -692,7 +692,6 @@ fetch.each{ r -&gt;
           &apos;description&apos;: r.description,
           &apos;requirement&apos;: r.requirement,
           &apos;benefit&apos;: r.benefit
-          ]
   	listData.add(a)}
   	i++
 }

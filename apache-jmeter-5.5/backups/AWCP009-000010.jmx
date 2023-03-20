@@ -168,7 +168,7 @@
         <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
         <stringProp name="initQuery"></stringProp>
         <boolProp name="keepAlive">true</boolProp>
-        <stringProp name="password">Rikkei@123</stringProp>
+        <stringProp name="password">231020</stringProp>
         <stringProp name="poolMax">3</stringProp>
         <boolProp name="preinit">false</boolProp>
         <stringProp name="timeout">10000</stringProp>
@@ -5101,7 +5101,7 @@ if (expect == actual) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Admin\Desktop\jmeter\report\AWCP009.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

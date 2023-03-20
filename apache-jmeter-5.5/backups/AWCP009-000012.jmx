@@ -711,7 +711,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -902,7 +903,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -1092,7 +1094,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -1280,7 +1283,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -1468,7 +1472,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -1667,7 +1672,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -1864,7 +1870,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -2061,7 +2068,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -2258,7 +2266,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -2455,7 +2464,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -2650,7 +2660,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -2856,7 +2867,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -3062,7 +3074,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -3266,7 +3279,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -3470,7 +3484,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
@@ -3683,7 +3698,8 @@ fetch.each{ r -&gt;
 		&apos;workAddress&apos;: r.workAddress,
 		&apos;benefit&apos;: r.benefit,
 		&apos;description&apos;: r.description,
-		&apos;requirement&apos;: r.requirement
+		&apos;requirement&apos;: r.requirement,
+		&apos;publishedAt&apos;: r.publishedAt
 	]
 	list.add(res)
 }
