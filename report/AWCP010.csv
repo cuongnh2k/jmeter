@@ -1,41 +1,23 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679236757042,135,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,135,0,66
-1679236757179,2319,Setup - Check Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2319,0,2251
-1679236759511,66,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,66,0,0
-1679236759578,66,Setup - Check Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,65,0,0
-1679236759645,728,Setup - Insert Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,30,0,1,1,null,0,0,0
-1679236760373,732,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,30,0,1,1,null,0,0,0
-1679236761105,1916,Setup - Insert Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,297,0,1,1,null,0,0,0
-1679236763089,267,AWCP010 - 200 - Check default,200,,/jobs/{id} 1-1,text,false,"java.lang.AssertionError: jobNews[id=6].publishedAt
-Expected: 2022-11-21T07:28:48+0700
-     got: 2022-11-21T14:28:48+0700
- ; jobNews[id=7].publishedAt
-Expected: 2022-11-21T07:29:29+0700
-     got: 2022-11-21T14:29:29+0700
- ; jobNews[id=8].publishedAt
-Expected: 2022-11-21T07:30:53+0700
-     got: 2022-11-21T14:30:53+0700
- ; jobNews[id=9].publishedAt
-Expected: 2022-11-21T07:31:44+0700
-     got: 2022-11-21T14:31:44+0700
- ; jobNews[id=10].publishedAt
-Expected: 2022-11-21T07:32:21+0700
-     got: 2022-11-21T14:32:21+0700
- ; publishedAt
-Expected: 2022-11-21T04:44:03+0700
-     got: 2022-11-21T11:44:03+0700
-",2314,279,1,1,http://13.229.198.3/jobs/1,267,0,96
-1679236765003,98,AWCP010 - 200 - Check job not found,200,,/jobs/{id} 1-1,text,true,,365,294,1,1,http://13.229.198.3/jobs/2093704795389484,98,0,0
-1679236765102,85,AWCP0010 - 400 - Check valid jobId format long,400,,/jobs/{id} 1-1,text,true,,359,290,1,1,http://13.229.198.3/jobs/2f32f321g1v2,84,0,0
-1679236765187,147,AWCP0010 - 400 - Check valid jobId min 1,400,,/jobs/{id} 1-1,text,true,,394,279,1,1,http://13.229.198.3/jobs/0,146,0,69
-1679236765334,157,"AWCP0010 - 400 - Check valid jobId max 9,223,372,036,854,775,807",400,,/jobs/{id} 1-1,text,true,,359,297,1,1,http://13.229.198.3/jobs/9223372036854775808,157,0,71
-1679236765492,144,AWCP0010 - 401 - Check Headers - sso-api-key empty,401,,/jobs/{id} 1-1,text,true,,357,184,1,1,http://13.229.198.3/jobs/1,144,0,67
-1679236765637,85,AWCP0010 - 401 - Check Headers - sso-api-key incorrect,401,,/jobs/{id} 1-1,text,true,,359,223,1,1,http://13.229.198.3/jobs/1,85,0,0
-1679236765723,117,AWCP0010 - 401 - Check  Headers - org-id empty,401,,/jobs/{id} 1-1,text,true,,352,233,1,1,http://13.229.198.3/jobs/1,117,0,0
-1679236765841,77,AWCP0010 - 401 - Check Headers - sso-client empty,401,,/jobs/{id} 1-1,text,true,,356,262,1,1,http://13.229.198.3/jobs/1,76,0,0
-1679236765922,70,TearDown - Delete Table  WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,70,0,0
-1679236765993,68,TearDown - Delete Table  WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,68,0,0
-1679236766061,70,TearDown - Delete Table  ORG_INFO,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,70,0,0
-1679236766131,66,TearDown - Check Table - WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,66,0,0
-1679236766199,66,TearDown - Check Table - WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,66,0,0
-1679236766267,65,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,65,0,0
+1679332652960,195,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,195,0,115
+1679332653156,2598,Setup - Check Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2597,0,2513
+1679332655760,111,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,110,0,0
+1679332655871,88,Setup - Check Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,88,0,0
+1679332655960,1970,Setup - Insert Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,299,0,1,1,null,0,0,0
+1679332657931,729,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,30,0,1,1,null,0,0,0
+1679332658660,2005,Setup - Insert Table - WCP_JOB_POSTS,200,OK,SetUp 1-1,text,true,,300,0,1,1,null,0,0,0
+1679332660752,178,AWCP010 - 200 - Check default,200,,/jobs/{id} 1-1,text,true,,2314,279,1,1,http://13.229.198.3/jobs/1,178,0,89
+1679332661614,83,AWCP010 - 200 - Check job not found,200,,/jobs/{id} 1-1,text,true,,365,294,1,1,http://13.229.198.3/jobs/2093704795389484,83,0,0
+1679332661697,88,AWCP0010 - 400 - Check valid jobId format long,400,,/jobs/{id} 1-1,text,true,,359,290,1,1,http://13.229.198.3/jobs/2f32f321g1v2,88,0,0
+1679332661786,138,AWCP0010 - 400 - Check valid jobId min 1,400,,/jobs/{id} 1-1,text,true,,394,279,1,1,http://13.229.198.3/jobs/0,138,0,69
+1679332661924,143,"AWCP0010 - 400 - Check valid jobId max 9,223,372,036,854,775,807",400,,/jobs/{id} 1-1,text,true,,359,297,1,1,http://13.229.198.3/jobs/9223372036854775808,143,0,74
+1679332662067,175,AWCP0010 - 401 - Check Headers - sso-api-key empty,401,,/jobs/{id} 1-1,text,true,,357,184,1,1,http://13.229.198.3/jobs/1,175,0,101
+1679332662242,73,AWCP0010 - 401 - Check Headers - sso-api-key incorrect,401,,/jobs/{id} 1-1,text,true,,359,223,1,1,http://13.229.198.3/jobs/1,73,0,0
+1679332662315,75,AWCP0010 - 401 - Check  Headers - org-id empty,401,,/jobs/{id} 1-1,text,true,,352,233,1,1,http://13.229.198.3/jobs/1,75,0,0
+1679332662390,79,AWCP0010 - 401 - Check Headers - sso-client empty,401,,/jobs/{id} 1-1,text,true,,356,262,1,1,http://13.229.198.3/jobs/1,79,0,0
+1679332662471,91,TearDown - Delete Table  WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,91,0,0
+1679332662562,85,TearDown - Delete Table  WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,85,0,0
+1679332662647,89,TearDown - Delete Table  ORG_INFO,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,89,0,0
+1679332662736,75,TearDown - Check Table - WCP_JOB_POSTS,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,75,0,0
+1679332662811,76,TearDown - Check Table - WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,76,0,0
+1679332662888,75,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,75,0,0

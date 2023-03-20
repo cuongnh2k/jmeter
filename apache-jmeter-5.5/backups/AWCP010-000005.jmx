@@ -673,7 +673,8 @@ fetch.each{ r -&gt;
           &apos;workAddress&apos;: r.workAddress,
           &apos;description&apos;: r.description,
           &apos;requirement&apos;: r.requirement,
-          &apos;benefit&apos;: r.benefit
+          &apos;benefit&apos;: r.benefit,
+          &apos;publishedAt&apos;: r.publishedAt
           ]
   		
   	}
@@ -691,8 +692,9 @@ fetch.each{ r -&gt;
           &apos;workAddress&apos;: r.workAddress,
           &apos;description&apos;: r.description,
           &apos;requirement&apos;: r.requirement,
-          &apos;benefit&apos;: r.benefit
-          ]
+          &apos;benefit&apos;: r.benefit,
+          &apos;publishedAt&apos;: r.publishedAt
+  	]
   	listData.add(a)}
   	i++
 }
@@ -712,6 +714,7 @@ def data = [
           &apos;description&apos;: b.description,
           &apos;requirement&apos;: b.requirement,
           &apos;benefit&apos;: b.benefit,
+          &apos;publishedAt&apos;: b.publishedAt,
           &apos;jobNews&apos;: listData
 ]
 
