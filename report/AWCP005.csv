@@ -1,13 +1,13 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679328982346,132,Setup - Check API Host,200,,Setup 1-1,text,true,,336,115,1,1,http://13.229.198.3/,132,0,65
-1679328982478,2311,Setup - Check Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8,0,1,1,null,2310,0,2246
-1679328984795,39847,Setup - Insert Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8208,0,1,1,null,0,0,0
-1679329024696,168,AWCP005 - 200 - Check default,200,,/stores/:id 1-1,text,true,,892,314,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,168,0,72
-1679329025570,96,AWCP005 - 200 - Check  ID Does Not Exist,200,,/stores/:id 1-1,text,true,,310,314,1,1,http://13.229.198.3/stores/xxxf55be-2787-4b4a-94fd-f9b3571f1xxx,92,0,0
-1679329025666,80,AWCP004 - 400 - Check id length 36,400,,/stores/:id 1-1,text,true,,353,315,1,1,http://13.229.198.3/stores/xxxf55be-2787-4b4a-94fd-f9b3571f1xxxx,79,0,0
-1679329025746,135,AWCP005 - 401 - Check Headers - sso-api-key empty,401,,/stores/:id 1-1,text,true,,357,219,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,135,0,67
-1679329025881,70,AWCP005 - 401 - Check Headers - sso-api-key incorrect,401,,/stores/:id 1-1,text,true,,359,258,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,70,0,0
-1679329025951,83,AWCP005 - 401 - Check  Headers - org-id empty,401,,/stores/:id 1-1,text,true,,352,268,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,83,0,0
-1679329026034,68,AWCP005 - 401 - Check Headers - sso-client empty,401,,/stores/:id 1-1,text,true,,356,299,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,68,0,0
-1679329026105,73,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,11,0,1,1,null,73,0,1
-1679329026179,860,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,860,0,0
+1679411929929,124,Setup - Check API Host,200,,Setup 1-1,text,true,,336,115,1,1,http://13.229.198.3/,124,0,60
+1679411930055,2127,Setup - Check Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8,0,1,1,null,2127,0,2067
+1679411932192,32088,Setup - Insert Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8216,0,1,1,null,0,0,0
+1679411964341,571,AWCP005 - 200 - Check default,200,,/stores/:id 1-1,text,true,,892,314,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,571,0,59
+1679411965623,114,AWCP005 - 200 - Check  ID Does Not Exist,200,,/stores/:id 1-1,text,true,,310,314,1,1,http://13.229.198.3/stores/xxxf55be-2787-4b4a-94fd-f9b3571f1xxx,114,0,0
+1679411965738,68,AWCP004 - 400 - Check id length 36,400,,/stores/:id 1-1,text,true,,353,315,1,1,http://13.229.198.3/stores/xxxf55be-2787-4b4a-94fd-f9b3571f1xxxx,68,0,0
+1679411965807,125,AWCP005 - 401 - Check Headers - sso-api-key empty,401,,/stores/:id 1-1,text,true,,357,219,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,125,0,61
+1679411965932,66,AWCP005 - 401 - Check Headers - sso-api-key incorrect,401,,/stores/:id 1-1,text,true,,359,258,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,66,0,0
+1679411965998,64,AWCP005 - 401 - Check  Headers - org-id empty,401,,/stores/:id 1-1,text,true,,352,268,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,64,0,0
+1679411966063,64,AWCP005 - 401 - Check Headers - sso-client empty,401,,/stores/:id 1-1,text,true,,356,299,1,1,http://13.229.198.3/stores/00beef67-dbc2-4beb-8812-c9c407ad77ee,64,0,0
+1679411966130,81,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,11,0,1,1,null,81,0,0
+1679411966212,660,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,660,0,0

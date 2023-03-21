@@ -1,11 +1,11 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679329109432,123,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,120,0,57
-1679329109556,2351,Setup - Check Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2351,0,2275
-1679329111914,1998,Setup - Insert Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,300,0,1,1,null,0,0,0
-1679329113973,663,AWCP012 - 200 - Check Default,200,,/job-types 1-1,text,true,,644,314,1,1,http://13.229.198.3/job-types,663,0,59
-1679329115142,83,AWCP0012 - 401 - Check Headers - sso-api-key empty,401,,/job-types 1-1,text,true,,357,219,1,1,http://13.229.198.3/job-types,83,0,0
-1679329115225,67,AWCP0012 - 401 - Check Headers - sso-api-key incorrect,401,,/job-types 1-1,text,true,,359,258,1,1,http://13.229.198.3/job-types,67,0,0
-1679329115293,67,AWCP0012 - 401 - Check  Headers - org-id empty,401,,/job-types 1-1,text,true,,352,268,1,1,http://13.229.198.3/job-types,66,0,0
-1679329115360,69,AWCP0012 - 401 - Check Headers - sso-client empty,401,,/job-types 1-1,text,true,,356,297,1,1,http://13.229.198.3/job-types,69,0,0
-1679329115431,72,TearDown - Delete Table  WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,72,0,0
-1679329115504,678,TearDown - Check Table - WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,678,0,0
+1679412114317,148,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,148,0,77
+1679412114467,2329,Setup - Check Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2329,0,2265
+1679412116817,1969,Setup - Insert Table - WCP_JOB_TYPE,200,OK,SetUp 1-1,text,true,,298,0,1,1,null,0,0,0
+1679412118839,167,AWCP012 - 200 - Check Default,200,,/job-types 1-1,text,true,,644,314,1,1,http://13.229.198.3/job-types,167,0,72
+1679412119587,75,AWCP0012 - 401 - Check Headers - sso-api-key empty,401,,/job-types 1-1,text,true,,357,219,1,1,http://13.229.198.3/job-types,75,0,0
+1679412119663,72,AWCP0012 - 401 - Check Headers - sso-api-key incorrect,401,,/job-types 1-1,text,true,,359,258,1,1,http://13.229.198.3/job-types,71,0,0
+1679412119735,72,AWCP0012 - 401 - Check  Headers - org-id empty,401,,/job-types 1-1,text,true,,352,268,1,1,http://13.229.198.3/job-types,72,0,0
+1679412119807,72,AWCP0012 - 401 - Check Headers - sso-client empty,401,,/job-types 1-1,text,true,,356,297,1,1,http://13.229.198.3/job-types,72,0,0
+1679412119881,68,TearDown - Delete Table  WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,68,0,0
+1679412119949,64,TearDown - Check Table - WCP_JOB_TYPE,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,64,0,0
