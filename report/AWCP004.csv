@@ -1,44 +1,44 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679328806562,121,Setup - Check API Host,200,,Setup 1-1,text,true,,336,115,1,1,http://13.229.198.3/,120,0,59
-1679328806683,2262,Setup - Check Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8,0,1,1,null,2262,0,2196
-1679328808956,30523,Setup - Insert Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8211,0,1,1,null,0,0,0
-1679328839542,157,AWCP004  - 200 - Check default,200,,/stores 1-1,text,true,,5898,289,1,1,http://13.229.198.3/stores,157,0,70
-1679328840554,86,AWCP004  - 200 - Check regionCode,200,,/stores 1-1,text,true,,5823,303,1,1,http://13.229.198.3/stores?regionCode=01,86,0,0
-1679328841463,89,AWCP004  - 200 - Check districtCode,200,,/stores 1-1,text,true,,1415,306,1,1,http://13.229.198.3/stores?districtCode=004,89,0,0
-1679328842384,103,AWCP004  - 200 - Check textSearch,200,,/stores 1-1,text,true,,4832,309,1,1,http://13.229.198.3/stores?textSearch=Building,103,0,0
-1679328843329,100,AWCP004  - 200 - Check textSearch special,200,,/stores 1-1,text,true,,877,304,1,1,http://13.229.198.3/stores?textSearch=%23,100,0,0
-1679328844303,116,AWCP004  - 200 - Check pageNo,200,,/stores 1-1,text,true,,5898,298,1,1,http://13.229.198.3/stores?pageNo=1,116,0,0
-1679328845140,95,AWCP004  - 200 - Check pageSize,200,,/stores 1-1,text,true,,5898,301,1,1,http://13.229.198.3/stores?pageSize=10,95,0,0
-1679328845889,83,"AWCP004  - 200 - Check regionCode, districtCode",200,,/stores 1-1,text,true,,1415,320,1,1,http://13.229.198.3/stores?regionCode=01&districtCode=004,83,0,0
-1679328847251,508,"AWCP004  - 200 - Check regionCode, textSearch",200,,/stores 1-1,text,true,,3559,323,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building,112,0,0
-1679328848585,109,"AWCP004  - 200 - Check regionCode, pageNo",200,,/stores 1-1,text,true,,5823,312,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1,109,0,0
-1679328849452,85,"AWCP004  - 200 - Check regionCode, pageSize",200,,/stores 1-1,text,true,,5823,315,1,1,http://13.229.198.3/stores?regionCode=01&pageSize=10,85,0,0
-1679328850342,83,"AWCP004  - 200 - Check districtCode, textSearch",200,,/stores 1-1,text,true,,343,326,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building,83,0,0
-1679328851239,102,"AWCP004  - 200 - Check districtCode, pageNo",200,,/stores 1-1,text,true,,1415,315,1,1,http://13.229.198.3/stores?districtCode=004&pageNo=1,102,0,0
-1679328852155,88,"AWCP004  - 200 - Check districtCode, pageSize",200,,/stores 1-1,text,true,,1415,318,1,1,http://13.229.198.3/stores?districtCode=004&pageSize=10,88,0,0
-1679328853101,103,"AWCP004  - 200 - Check textSearch, pageNo",200,,/stores 1-1,text,true,,4832,318,1,1,http://13.229.198.3/stores?pageNo=1&textSearch=Building,103,0,0
-1679328854107,106,"AWCP004  - 200 - Check textSearch, pageSize",200,,/stores 1-1,text,true,,4832,321,1,1,http://13.229.198.3/stores?pageSize=10&textSearch=Building,105,0,0
-1679328855158,86,"AWCP004  - 200 - Check pageNo, pageSize",200,,/stores 1-1,text,true,,5898,310,1,1,http://13.229.198.3/stores?pageSize=10&pageNo=1,85,0,0
-1679328856046,82,"AWCP004  - 200 - Check regionCode, districtCode, textSearch",200,,/stores 1-1,text,true,,343,340,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&districtCode=004,82,0,0
-1679328856840,93,"AWCP004  - 200 - Check regionCode, districtCode, pageNo",200,,/stores 1-1,text,true,,1415,329,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1&districtCode=004,91,0,0
-1679328857773,93,"AWCP004  - 200 - Check regionCode, districtCode, pagaSize",200,,/stores 1-1,text,true,,1415,332,1,1,http://13.229.198.3/stores?regionCode=01&pageSize=10&districtCode=004,93,0,0
-1679328858678,90,"AWCP004  - 200 - Check regionCode, textSearch, pageNo",200,,/stores 1-1,text,true,,3559,332,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&pageNo=1,90,0,0
-1679328859575,91,"AWCP004  - 200 - Check regionCode, textSearch, pageSize",200,,/stores 1-1,text,true,,3559,335,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&pageSize=10,91,0,0
-1679328860403,96,"AWCP004  - 200 - Check regionCode, pageNo, pageSize",200,,/stores 1-1,text,true,,5823,324,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1&pageSize=10,96,0,0
-1679328861309,82,"AWCP004  - 200 - Check districtCode, textSearch, pageNo",200,,/stores 1-1,text,true,,343,335,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building&pageNo=1,82,0,0
-1679328862325,102,"AWCP004  - 200 - Check districtCode, textSearch, pageSize",200,,/stores 1-1,text,true,,343,338,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building&pageSize=10,102,0,0
-1679328863160,91,"AWCP004  - 200 - Check districtCode, pageNo, pageSize",200,,/stores 1-1,text,true,,1415,327,1,1,http://13.229.198.3/stores?districtCode=004&pageNo=1&pageSize=10,91,0,0
-1679328864077,82,"AWCP004  - 200 - Check textSearch, pageNo, page Size",200,,/stores 1-1,text,true,,4832,330,1,1,http://13.229.198.3/stores?textSearch=Building&pageNo=1&pageSize=10,82,0,0
-1679328864954,80,"AWCP004  - 200 - Check regionCode, districtCode, textSearch, pageNo, page Size",200,,/stores 1-1,text,true,,343,361,1,1,http://13.229.198.3/stores?textSearch=Building&pageNo=1&pageSize=10&districtCode=004&regionCode=01,80,0,0
-1679328865927,76,AWCP004 - 400 - Check pageNo Format integer,400,,/stores 1-1,text,true,,363,305,1,1,http://13.229.198.3/stores?pageNo=32fj023c,75,0,0
-1679328866003,198,AWCP004 - 400 - Check pageNo Min 1,400,,/stores 1-1,text,true,,357,298,1,1,http://13.229.198.3/stores?pageNo=0,197,0,71
-1679328866201,161,"AWCP004 - 400 - Check pageNo Max 2,147,483,647",400,,/stores 1-1,text,true,,363,307,1,1,http://13.229.198.3/stores?pageNo=2147483648,161,0,77
-1679328866362,146,AWCP004 - 400 - Check pageSixe Format integer,400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,146,0,71
-1679328866509,140,AWCP004 - 400 - Check pageSixe Min 1,400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,139,0,67
-1679328866649,165,"AWCP004 - 400 - Check pageSixe Max 2,147,483,647",400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,164,0,78
-1679328866814,142,AWCP004 - 401 - Check Headers - sso-api-key empty,401,,/stores 1-1,text,true,,357,194,1,1,http://13.229.198.3/stores,141,0,67
-1679328866956,77,AWCP004 - 401 - Check Headers - sso-api-key incorrect,401,,/stores 1-1,text,true,,359,233,1,1,http://13.229.198.3/stores,77,0,0
-1679328867033,74,AWCP004 - 401 - Check  Headers - org-id empty,401,,/stores 1-1,text,true,,352,243,1,1,http://13.229.198.3/stores,74,0,0
-1679328867107,76,AWCP004 - 401 - Check Headers - sso-client empty,401,,/stores 1-1,text,true,,356,262,1,1,http://13.229.198.3/stores,76,0,0
-1679328867186,95,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,11,0,1,1,null,94,0,0
-1679328867281,65,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,65,0,0
+1679411843004,166,Setup - Check API Host,200,,Setup 1-1,text,true,,336,115,1,1,http://13.229.198.3/,161,0,92
+1679411843172,2855,Setup - Check Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8,0,1,1,null,2854,0,2781
+1679411846671,39037,Setup - Insert Table - ORG_INFO,200,OK,Setup 1-1,text,true,,8218,0,1,1,null,0,0,0
+1679411885762,795,AWCP004  - 200 - Check default,200,,/stores 1-1,text,false,"The operation lasted too long: It took 795 milliseconds, but should not have lasted longer than 600 milliseconds.",5898,289,1,1,http://13.229.198.3/stores,795,0,70
+1679411887509,166,AWCP004  - 200 - Check regionCode,200,,/stores 1-1,text,true,,5823,303,1,1,http://13.229.198.3/stores?regionCode=01,166,0,0
+1679411888567,115,AWCP004  - 200 - Check districtCode,200,,/stores 1-1,text,true,,1415,306,1,1,http://13.229.198.3/stores?districtCode=004,115,0,0
+1679411889459,136,AWCP004  - 200 - Check textSearch,200,,/stores 1-1,text,true,,4832,309,1,1,http://13.229.198.3/stores?textSearch=Building,136,0,0
+1679411890370,91,AWCP004  - 200 - Check textSearch special,200,,/stores 1-1,text,true,,877,304,1,1,http://13.229.198.3/stores?textSearch=%23,91,0,0
+1679411891294,123,AWCP004  - 200 - Check pageNo,200,,/stores 1-1,text,true,,5898,298,1,1,http://13.229.198.3/stores?pageNo=1,123,0,0
+1679411892230,104,AWCP004  - 200 - Check pageSize,200,,/stores 1-1,text,true,,5898,301,1,1,http://13.229.198.3/stores?pageSize=10,104,0,0
+1679411893221,87,"AWCP004  - 200 - Check regionCode, districtCode",200,,/stores 1-1,text,true,,1415,320,1,1,http://13.229.198.3/stores?regionCode=01&districtCode=004,87,0,0
+1679411894116,94,"AWCP004  - 200 - Check regionCode, textSearch",200,,/stores 1-1,text,true,,3559,323,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building,94,0,0
+1679411895041,94,"AWCP004  - 200 - Check regionCode, pageNo",200,,/stores 1-1,text,true,,5823,312,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1,94,0,0
+1679411896004,90,"AWCP004  - 200 - Check regionCode, pageSize",200,,/stores 1-1,text,true,,5823,315,1,1,http://13.229.198.3/stores?regionCode=01&pageSize=10,90,0,0
+1679411896764,87,"AWCP004  - 200 - Check districtCode, textSearch",200,,/stores 1-1,text,true,,343,326,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building,87,0,0
+1679411897745,125,"AWCP004  - 200 - Check districtCode, pageNo",200,,/stores 1-1,text,true,,1415,315,1,1,http://13.229.198.3/stores?districtCode=004&pageNo=1,125,0,0
+1679411898663,92,"AWCP004  - 200 - Check districtCode, pageSize",200,,/stores 1-1,text,true,,1415,318,1,1,http://13.229.198.3/stores?districtCode=004&pageSize=10,92,0,0
+1679411899587,111,"AWCP004  - 200 - Check textSearch, pageNo",200,,/stores 1-1,text,true,,4832,318,1,1,http://13.229.198.3/stores?pageNo=1&textSearch=Building,111,0,0
+1679411900483,104,"AWCP004  - 200 - Check textSearch, pageSize",200,,/stores 1-1,text,true,,4832,321,1,1,http://13.229.198.3/stores?pageSize=10&textSearch=Building,104,0,0
+1679411901350,101,"AWCP004  - 200 - Check pageNo, pageSize",200,,/stores 1-1,text,true,,5898,310,1,1,http://13.229.198.3/stores?pageSize=10&pageNo=1,101,0,0
+1679411902309,86,"AWCP004  - 200 - Check regionCode, districtCode, textSearch",200,,/stores 1-1,text,true,,343,340,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&districtCode=004,86,0,0
+1679411903180,95,"AWCP004  - 200 - Check regionCode, districtCode, pageNo",200,,/stores 1-1,text,true,,1415,329,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1&districtCode=004,95,0,0
+1679411904224,88,"AWCP004  - 200 - Check regionCode, districtCode, pagaSize",200,,/stores 1-1,text,true,,1415,332,1,1,http://13.229.198.3/stores?regionCode=01&pageSize=10&districtCode=004,88,0,0
+1679411905114,95,"AWCP004  - 200 - Check regionCode, textSearch, pageNo",200,,/stores 1-1,text,true,,3559,332,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&pageNo=1,95,0,0
+1679411906049,82,"AWCP004  - 200 - Check regionCode, textSearch, pageSize",200,,/stores 1-1,text,true,,3559,335,1,1,http://13.229.198.3/stores?regionCode=01&textSearch=Building&pageSize=10,82,0,0
+1679411906944,89,"AWCP004  - 200 - Check regionCode, pageNo, pageSize",200,,/stores 1-1,text,true,,5823,324,1,1,http://13.229.198.3/stores?regionCode=01&pageNo=1&pageSize=10,89,0,0
+1679411907813,81,"AWCP004  - 200 - Check districtCode, textSearch, pageNo",200,,/stores 1-1,text,true,,343,335,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building&pageNo=1,81,0,0
+1679411908740,88,"AWCP004  - 200 - Check districtCode, textSearch, pageSize",200,,/stores 1-1,text,true,,343,338,1,1,http://13.229.198.3/stores?districtCode=004&textSearch=Building&pageSize=10,88,0,0
+1679411909622,82,"AWCP004  - 200 - Check districtCode, pageNo, pageSize",200,,/stores 1-1,text,true,,1415,327,1,1,http://13.229.198.3/stores?districtCode=004&pageNo=1&pageSize=10,82,0,0
+1679411910674,83,"AWCP004  - 200 - Check textSearch, pageNo, page Size",200,,/stores 1-1,text,true,,4832,330,1,1,http://13.229.198.3/stores?textSearch=Building&pageNo=1&pageSize=10,83,0,0
+1679411911560,90,"AWCP004  - 200 - Check regionCode, districtCode, textSearch, pageNo, page Size",200,,/stores 1-1,text,true,,343,361,1,1,http://13.229.198.3/stores?textSearch=Building&pageNo=1&pageSize=10&districtCode=004&regionCode=01,90,0,0
+1679411912697,157,AWCP004 - 400 - Check pageNo Format integer,400,,/stores 1-1,text,true,,363,305,1,1,http://13.229.198.3/stores?pageNo=32fj023c,156,0,0
+1679411912855,185,AWCP004 - 400 - Check pageNo Min 1,400,,/stores 1-1,text,true,,357,298,1,1,http://13.229.198.3/stores?pageNo=0,185,0,65
+1679411913041,149,"AWCP004 - 400 - Check pageNo Max 2,147,483,647",400,,/stores 1-1,text,true,,363,307,1,1,http://13.229.198.3/stores?pageNo=2147483648,148,0,70
+1679411913190,132,AWCP004 - 400 - Check pageSixe Format integer,400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,132,0,63
+1679411913323,140,AWCP004 - 400 - Check pageSixe Min 1,400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,140,0,67
+1679411913463,160,"AWCP004 - 400 - Check pageSixe Max 2,147,483,647",400,,/stores 1-1,text,true,,365,308,1,1,http://13.229.198.3/stores?pageSize=f3j2f9-23,160,0,83
+1679411913624,123,AWCP004 - 401 - Check Headers - sso-api-key empty,401,,/stores 1-1,text,true,,357,194,1,1,http://13.229.198.3/stores,123,0,59
+1679411913748,66,AWCP004 - 401 - Check Headers - sso-api-key incorrect,401,,/stores 1-1,text,true,,359,233,1,1,http://13.229.198.3/stores,66,0,0
+1679411913815,71,AWCP004 - 401 - Check  Headers - org-id empty,401,,/stores 1-1,text,true,,352,243,1,1,http://13.229.198.3/stores,71,0,0
+1679411913886,66,AWCP004 - 401 - Check Headers - sso-client empty,401,,/stores 1-1,text,true,,356,262,1,1,http://13.229.198.3/stores,66,0,0
+1679411913955,576,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,11,0,1,1,null,576,0,480
+1679411914531,59,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,59,0,0

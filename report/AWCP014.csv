@@ -1,22 +1,22 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679329131402,145,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,145,0,70
-1679329131548,2420,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2420,0,2355
-1679329133975,72,Setup - Check Table - WCP_LIAISON_HISTORY,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,72,0,0
-1679329134049,70,Setup - Check Table - WCP_LIAISON,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,70,0,0
-1679329134120,4296,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,807,0,1,1,null,0,0,0
-1679329138483,197,AWCP014 - 200 - Check Default Request,200,,AWCP014 - Create Contact 1-1,text,true,,442,505,1,1,http://13.229.198.3/contact-registration,197,0,63
-1679329139371,91,AWCP014 - 400 - Check orgId Required,400,,AWCP014 - Create Contact 1-1,text,true,,347,448,1,1,http://13.229.198.3/contact-registration,91,0,0
-1679329139462,156,AWCP014 - 400 - Check fullName Required,400,,AWCP014 - Create Contact 1-1,text,true,,350,477,1,1,http://13.229.198.3/contact-registration,155,0,70
-1679329139618,143,AWCP014 - 400 - Check fullName max length 50,400,,AWCP014 - Create Contact 1-1,text,true,,375,526,1,1,http://13.229.198.3/contact-registration,143,0,67
-1679329139762,160,AWCP014 - 400 - Check phoneNumber required,400,,AWCP014 - Create Contact 1-1,text,true,,353,474,1,1,http://13.229.198.3/contact-registration,159,0,74
-1679329139922,147,AWCP014 - 400 - Check issue max length 500,400,,AWCP014 - Create Contact 1-1,text,true,,452,1190,1,1,http://13.229.198.3/contact-registration,147,0,68
-1679329140070,146,AWCP014 - 401 - Check Headers - sso-api-key empty,401,,AWCP014 - Create Contact 1-1,text,true,,357,280,1,1,http://13.229.198.3/contact-registration,146,0,68
-1679329140216,76,AWCP014 - 401 - Check Headers - sso-api-key incorrect,401,,AWCP014 - Create Contact 1-1,text,true,,359,319,1,1,http://13.229.198.3/contact-registration,76,0,0
-1679329140293,75,AWCP014 - 401 - Check  Headers - org-id empty,401,,AWCP014 - Create Contact 1-1,text,true,,352,329,1,1,http://13.229.198.3/contact-registration,75,0,0
-1679329140368,75,AWCP014 - 401 - Check Headers - sso-client empty,401,,AWCP014 - Create Contact 1-1,text,true,,356,360,1,1,http://13.229.198.3/contact-registration,75,0,0
-1679329140446,68,TearDown - Delete Table WCP_LIAISON_HISTORY,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,68,0,0
-1679329140514,70,TearDown - Delete Table WCP_LIAISON,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,70,0,0
-1679329140584,72,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,71,0,0
-1679329140656,65,TearDown - Check Table - WCP_LIAISON_HISTORY,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,65,0,0
-1679329140722,65,TearDown - Check Table - WCP_LIAISON,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,65,0,0
-1679329140788,65,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,65,0,0
+1679412132361,156,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,156,0,82
+1679412132519,2199,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2199,0,2130
+1679412134727,79,Setup - Check Table - WCP_LIAISON_HISTORY,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,79,0,0
+1679412134806,74,Setup - Check Table - WCP_LIAISON,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,74,0,0
+1679412134881,4760,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,806,0,1,1,null,0,0,0
+1679412139697,198,AWCP014 - 200 - Check Default Request,200,,AWCP014 - Create Contact 1-1,text,true,,442,505,1,1,http://13.229.198.3/contact-registration,198,0,68
+1679412140515,84,AWCP014 - 400 - Check orgId Required,400,,AWCP014 - Create Contact 1-1,text,true,,347,448,1,1,http://13.229.198.3/contact-registration,84,0,0
+1679412140599,147,AWCP014 - 400 - Check fullName Required,400,,AWCP014 - Create Contact 1-1,text,true,,350,477,1,1,http://13.229.198.3/contact-registration,147,0,70
+1679412140747,148,AWCP014 - 400 - Check fullName max length 50,400,,AWCP014 - Create Contact 1-1,text,true,,375,526,1,1,http://13.229.198.3/contact-registration,148,0,70
+1679412140895,141,AWCP014 - 400 - Check phoneNumber required,400,,AWCP014 - Create Contact 1-1,text,true,,353,474,1,1,http://13.229.198.3/contact-registration,140,0,62
+1679412141036,141,AWCP014 - 400 - Check issue max length 500,400,,AWCP014 - Create Contact 1-1,text,true,,452,1190,1,1,http://13.229.198.3/contact-registration,141,0,67
+1679412141177,145,AWCP014 - 401 - Check Headers - sso-api-key empty,401,,AWCP014 - Create Contact 1-1,text,true,,357,280,1,1,http://13.229.198.3/contact-registration,145,0,72
+1679412141323,70,AWCP014 - 401 - Check Headers - sso-api-key incorrect,401,,AWCP014 - Create Contact 1-1,text,true,,359,319,1,1,http://13.229.198.3/contact-registration,69,0,0
+1679412141393,70,AWCP014 - 401 - Check  Headers - org-id empty,401,,AWCP014 - Create Contact 1-1,text,true,,352,329,1,1,http://13.229.198.3/contact-registration,70,0,0
+1679412141463,72,AWCP014 - 401 - Check Headers - sso-client empty,401,,AWCP014 - Create Contact 1-1,text,true,,356,360,1,1,http://13.229.198.3/contact-registration,72,0,0
+1679412141537,76,TearDown - Delete Table WCP_LIAISON_HISTORY,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,76,0,0
+1679412141613,71,TearDown - Delete Table WCP_LIAISON,200,OK,TearDown 1-1,text,true,,9,0,1,1,null,71,0,0
+1679412141685,75,TearDown - Delete Table ORG_INFO,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,75,0,0
+1679412141760,68,TearDown - Check Table - WCP_LIAISON_HISTORY,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,68,0,0
+1679412141829,70,TearDown - Check Table - WCP_LIAISON,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,70,0,0
+1679412141899,68,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,68,0,0

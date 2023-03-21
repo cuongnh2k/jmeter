@@ -1,11 +1,11 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1679329172132,154,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,154,0,64
-1679329172286,2357,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2357,0,2291
-1679329174650,3314,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,566,0,1,1,null,0,0,0
-1679329178024,315,AWCP018 - 200 - Check Default Request,200,,/companies 1-1,text,true,,3457,305,1,1,http://13.229.198.3/companies,314,0,73
-1679329178945,81,AWCP018 - 401 - Check Headers - sso-api-key empty,401,,/companies 1-1,text,true,,357,187,1,1,http://13.229.198.3/companies,81,0,0
-1679329179026,86,AWCP018 - 401 - Check Headers - sso-api-key incorrect,401,,/companies 1-1,text,true,,359,226,1,1,http://13.229.198.3/companies,86,0,0
-1679329179113,77,AWCP018 - 401 - Check  Headers - org-id empty,401,,/companies 1-1,text,true,,352,236,1,1,http://13.229.198.3/companies,77,0,0
-1679329179190,79,AWCP018 - 401 - Check Headers - sso-client empty,401,,/companies 1-1,text,true,,356,265,1,1,http://13.229.198.3/companies,78,0,0
-1679329179272,74,TearDown - Delete Table  ORG_INFO,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,74,0,0
-1679329179346,96,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,95,0,0
+1679412154220,161,Setup - Check API Host,200,,SetUp 1-1,text,true,,336,115,1,1,http://13.229.198.3/,160,0,82
+1679412154383,2415,Setup - Check Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,8,0,1,1,null,2415,0,2346
+1679412156807,3342,Setup - Insert Table - ORG_INFO,200,OK,SetUp 1-1,text,true,,565,0,1,1,null,0,0,0
+1679412160204,206,AWCP018 - 200 - Check Default Request,200,,/companies 1-1,text,true,,3457,305,1,1,http://13.229.198.3/companies,206,0,83
+1679412161062,73,AWCP018 - 401 - Check Headers - sso-api-key empty,401,,/companies 1-1,text,true,,357,187,1,1,http://13.229.198.3/companies,73,0,0
+1679412161135,70,AWCP018 - 401 - Check Headers - sso-api-key incorrect,401,,/companies 1-1,text,true,,359,226,1,1,http://13.229.198.3/companies,70,0,0
+1679412161206,70,AWCP018 - 401 - Check  Headers - org-id empty,401,,/companies 1-1,text,true,,352,236,1,1,http://13.229.198.3/companies,70,0,0
+1679412161276,71,AWCP018 - 401 - Check Headers - sso-client empty,401,,/companies 1-1,text,true,,356,265,1,1,http://13.229.198.3/companies,71,0,0
+1679412161349,72,TearDown - Delete Table  ORG_INFO,200,OK,TearDown 1-1,text,true,,10,0,1,1,null,72,0,0
+1679412161421,68,TearDown - Check Table - ORG_INFO,200,OK,TearDown 1-1,text,true,,8,0,1,1,null,68,0,0
